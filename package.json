@@ -1,0 +1,27 @@
+{
+  "name": "abap-runtime-test",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npm run build:transpile-abap",
+    "build:transpile-abap": "node ./scripts/transpile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohannesKonings/abap-runtime-test.git"
+  },
+  "author": "Johannes Konings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohannesKonings/abap-runtime-test/issues"
+  },
+  "homepage": "https://github.com/JohannesKonings/abap-runtime-test#readme",
+  "dependencies": {
+    "@abaplint/runtime": "^0.4.4"
+  },
+  "devDependencies": {
+    "@abaplint/transpiler": "^0.4.4",
+    "fs": "0.0.1-security"
+  }
+}

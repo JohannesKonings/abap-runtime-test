@@ -10,7 +10,11 @@ const transpile = async function () {
 	console.log(result);
 	console.log(result.js[0].contents);
 	console.log(result.js[0].filename);
-	const content = "const abap = require('@abaplint/runtime');\n" + result.js[0].contents;
+	const content = "const abap = require('@abaplint/runtime');\n" +
+					"module.exports.write = function () {" +
+					result.js[0].contents +
+					"}";
+
 	fs.writeFile(result.js[0].filename, content, 'utf8', (err) => {
 		if (err) throw err;
 		console.log('The file was succesfully saved!');

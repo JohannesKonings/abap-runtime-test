@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "build": "npm run build:transpile-abap",
-    "build:transpile-abap": "node ./scripts/transpile.js",
+    "build:transpile-abap": "node ./scripts/abap-loader.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

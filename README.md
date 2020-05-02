@@ -1,6 +1,6 @@
 # abap-runtime-test
 
-[![Known Vulnerabilities](https://snyk.io/test/github/JohannesKonings/abap-runtime-test/badge.svg?targetFile=package.json)](https://snyk.io/test/github/JohannesKonings/abap-runtime-test?targetFile=package.json)
+[![Known Vulnerabilities](https://snyk.io/test/github/JohannesKonings/test-abap-runtime/badge.svg?targetFile=package.json)](https://snyk.io/test/github/JohannesKonings/test-abap-runtime?targetFile=package.json)
 
 # based on
 

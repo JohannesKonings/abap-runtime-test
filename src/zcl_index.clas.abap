@@ -8,9 +8,9 @@ ENDCLASS.
 CLASS zcl_index IMPLEMENTATION.
 
   METHOD run.
-
-    WRITE / 'index'.
-
+    DATA lo_writer TYPE REF TO zcl_writer.
+    CREATE OBJECT lo_writer.
+    lo_writer->write( ).
   ENDMETHOD.
 
 ENDCLASS.

@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/JohannesKonings/abap-runtime-test#readme",
   "dependencies": {
-    "@abaplint/runtime": "^0.4.4"
+    "@abaplint/runtime": "^0.5.37"
   },
   "devDependencies": {
     "@abaplint/transpiler": "^0.4.4",
